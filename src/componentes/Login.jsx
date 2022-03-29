@@ -12,8 +12,8 @@ export default function Login(props) {
             const res = await axios.post(
                 "http://localhost:5000/profile/login",JSON.stringify({'username':userName, 'password':password}),
                 {headers: {
-                        'Content-Type': 'application/json'
-                    },}
+                    'Content-Type': 'application/json',
+},}
             );
             console.log(res);
         } catch (ex) {
@@ -22,7 +22,7 @@ export default function Login(props) {
     };
 
     return (
-        <div className="login" id="fondo">
+        <div className="login">
             <div className="row">
                 <div className="col-sm-4 offset-4 mt-5">
                     <div className="card pt-5">
