@@ -1,9 +1,10 @@
-import Login from './componentes/Login';
+
+import Slider from './componentes/Slider';
 
 function App() {
   return (
     
-    <Login />
+    <Slider />
   );
 }
 
