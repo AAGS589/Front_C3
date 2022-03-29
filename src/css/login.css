@@ -1,11 +1,16 @@
 .login {
-    background-image: url("../img/FondoLogin.jpg");
+    background-color: blue;
+    
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 97vh;
+    background-size: contain;
+    height: 595px;
     width: 219vh;
   
 }
+ #fondo{
+    background-image: url('../img/FondoLogin.jpg');
+ }
+
 
 .title1 {
     text-align: center;
