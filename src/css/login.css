@@ -2,10 +2,9 @@
     background-image: url("../img/FondoLogin.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    
-    
-   
-    
+    height: 97vh;
+    width: 219vh;
+  
 }
 
 .title1 {
