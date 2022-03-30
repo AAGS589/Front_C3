@@ -1,7 +1,7 @@
 *{
   margin: 0;
   padding: 0;
-  
+
 
 }
 #login {
@@ -10,9 +10,9 @@
     background-size: cover;
     height: 100vh;
     width: 222.99vh;
-    
+
 }
- 
+
 #tarjeta_login{
 
   background: rgb(2,0,36);
@@ -22,7 +22,10 @@
 }
 
 .title1 {
-    text-align: center;
-    color: #ffff;
-    font-size: 50px;
+    
+  text-align: center;
+  color: #ffff;
+  font-size: 50px;
+
 }
+
