@@ -1,20 +1,39 @@
-.login {
+*{
+  margin: 0;
+  padding: 0;
+  
+
+}
+#login {
     background-image: url('../img/login2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 595px;
-    width: 219vh;
+    height: 100vh;
+    width: 222.99vh;
+    
 }
  
 #tarjeta_login{
 
-  background: linear-gradient(to right top, #05193799, #004d7a99, #00879399, #00bf7299, #a8eb1299);
-  border-radius: 2.5%;
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(245,69,131,0.20211834733893552) 34%);
+
+  border-radius: 2%;
+  border-inline-style: none;
 
 }
 
 
 .title1 {
     text-align: center;
-    color: white;
+    font-size: 50px;
+    color: #ffff;
+}
+
+.btn-login{
+  background: #FFFFFF;
+  width: 100%;
+  line-height: 2.5;
+  box-shadow: 5px 0 #367ABA inset;
+  transition: all 1s;
 }
