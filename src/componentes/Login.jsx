@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import '../css/login.css';
 import axios from 'axios';
+import {Link} from "react-router-dom";
 export default function Login(props) {
     const [password,setPassword] = useState('');
     const [userName,setUsername] = useState('');
@@ -43,8 +44,9 @@ export default function Login(props) {
                                 <button class="btn btn-primary" type="button" onClick={login}>Iniciar sesión</button>
                                
                                 <div className="card-footer">
-                                
+                                <Link to='/register'>
                                     <button type="button" className="btn btn-primary">Registrarse</button>
+                                 </Link>   
                                 </div>
                             </div>
                         </div>
