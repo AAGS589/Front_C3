@@ -45,7 +45,6 @@ export default function Login(props) {
                                 <div className="card-footer">
                                 
                                     <button type="button" className="btn btn-primary">Registrarse</button>
-                                
                                 </div>
                             </div>
                         </div>
